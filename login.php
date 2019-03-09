@@ -1,8 +1,9 @@
 <?php
 session_start();
-$active = 'contact';
+$active = 'login';
 include 'includes/nav.php';
 ?>
+
 
 
 <div class="contact">

@@ -1,69 +1,10 @@
 <?php
 session_start();
+$active = 'signup';
 include 'includes/nav.php';
 ?>
 
-<body>
-<!-- banner -->
-<div class="banner">
-<div class="header-top">
-	 <div class="container">
-		 <div class="logo">			
-				 <h1><a href="#"><img src="pot1.png">Blakk Paradyse Afrika</a></h1>			
-		 </div>
-		 
-		 <div class="details">				 
-				<div class="locate">
-					 <div class="detail-grid">
-						 <div class="lctr">
-								<img src="images/lct.png" alt=""/>
-						 </div>
-						 <p>Yet Confirmation,
-						 <span> Ghana.</span></p>
-						 <div class="clearfix"></div>
-					 </div>
-					 <div class="detail-grid">
-						 <div class="lctr">
-								<img src="images/phn.png" alt=""/>
-						 </div>
-						 <p>Tel: Yet Confirmation</p>
-						 <div class="clearfix"></div>
-					 </div>
-				</div>
-		 </div>
-		 <div class="clearfix"></div>
-	 </div>
-</div>
-<div class="header">
-	 <div class="container">
-		 <div class="top-menu">
-			 <span class="menu"><img src="africa.png" alt=""></span>
-			 <ul class="nav1">
-				 <li><a href="index.php">Home</a></li>
-				 <li><a href="about.php">About Us</a></li>
-				 <li><a href="projects.php">Leaders We Pay Tribute</a></li>
-				 <li><a href="gallery.php">Gallery</a></li>
-				   <li class="active"><a href="signup.php">SIGN UP</a></li>
-				 <li><a href="contact.php">Contact</a></li>
 
-			 </ul>
-		 </div>
-		 <!-- script-for-menu -->
-							 <script>
-							   $( "span.menu" ).click(function() {
-								 $( "ul.nav1" ).slideToggle( 300, function() {
-								 // Animation complete.
-								  });
-								 });
-							</script>
-		 <!-- /script-for-menu -->
-
-		 
-		 
-		 <div class="clearfix"></div>
-	 </div>
-</div>
-<!----> 
  <form action="includes/signup.inc.php" method="post">
 <div class="contact">
 		<div class="container">
