@@ -347,3 +347,72 @@ include 'includes/nav.php';
 <!----> 
 </body>
 </html>
+
+<div class="prjt-grid">
+				 <div class="box maxheight">
+					  <a class="example-image-link" href="images/s1.jpg" data-lightbox="example-1" data-title="Guidance."><img class="example-image" src="images/s1.jpg"></a>
+					  <div class="project-info">
+					   <!-- <a href="about.html">Guidance</a> -->
+										<!-- Button trigger modal -->
+					<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">
+					Read More
+					</button>
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+						</div>
+						<div class="modal-body">
+				
+		  <div class="wlid-sec">
+			 <div class="col-md-12 news">
+				 <div class="news-head">
+					 <h3>Latest News</h3>
+					 <span></span>
+				 </div>
+				 <div class="news_sec">
+					 <img src="images/new.jpg" class="img-responsive" alt=""/>
+					 <h3><a href="#">Mauris hendrerit ex id leo elementum congue.</a></h3>
+					 <p>Praesent accumsan augue dolor, vel eleifend lorem pellentesque egestas. Ut sit amet iaculis erat. Cras venenatis sodales nibh non finibus. 
+					 Mauris dapibus ex ante. Aenean quis vestibulum mi. Mauris scelerisque urna id lectus suscipit, sed mattis lorem congue. Fusce dapibus tempor
+					 augue. Ut ac pharetra nisl. </p>
+					 <a class="read" href="about.html">Read More...</a>
+				 </div>
+			 </div>
+			
+			 <div class="clearfix"></div>
+		  </div>
+	
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Save changes</button>
+									</div>
+									</div>
+								</div>
+								</div>
+					   <p>Kuspendisse laoreet augue iderti wer  interdum merti oremolo lectusto odio, sedorolu fringilla estero libero orciwe. </p>
+					  </div>
+				 </div>
+			  </div>
+			  <div class="prjt-grid">
+				 <div class="box maxheight">
+					  <a class="example-image-link" href="images/s2.jpg" data-lightbox="example-2" data-title="Mobile Tents."><img class="example-image" src="images/s2.jpg"></a>
+					  <div class="project-info">
+					  <a href="about.html">Mobile Tents</a>
+					  <p>Kuspendisse laoreet augue iderti wer  interdum merti oremolo lectusto odio, sedorolu fringilla estero libero orciwe. </p>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="prjt-grid span66">
+				 <div class="box maxheight">
+					  	<a class="example-image-link" href="images/s3.jpg" data-lightbox="example-3" data-title="Animal Care."><img class="example-image" src="images/s3.jpg"></a>
+					  <div class="project-info">
+					  <a href="about.html">Animal Care</a>
+					  <p>Kuspendisse laoreet augue iderti wer  interdum merti oremolo lectusto odio, sedorolu fringilla estero libero orciwe.</p>
+					  </div>					  
+				  </div>
+			  </div>
+			 <div class="clearfix"></div>
