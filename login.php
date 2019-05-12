@@ -6,10 +6,10 @@ session_start();
 include 'db.php';
 
 if (isset($_POST['submit'])) {
-    $name = $_POST['name'];
+    $email = $_POST['email'];
 $pwd = $_POST['pwd'];
 
-$sql = ("SELECT * FROM signup WHERE name='$name' AND pwd='$pwd'");
+$sql = ("SELECT * FROM signup WHERE email='$email' AND pwd='$pwd'");
 //send the query to database
 $results = $conn->query($sql);
 
@@ -67,12 +67,12 @@ include 'includes/nav.php';
 				</div>
 				<div class="col-md-9 contact-left">
 					<form method="post" action="login.php">
-						<input type="text" name="name" />
+						<input placeholder = "input email" type="text" name="email" />
 
-						<input type="password" name="pwd" />
+						<input placeholder = "input password" type="password" name="pwd" />
 
 						<div class="submit-btn">
-							<input type="submit" name="submit">
+							<input  type="submit" name="submit">
 						</div>
 					</form>
 				</div>

@@ -741,6 +741,15 @@ h3.ghj {
 	outline: none;
 	border: 1px solid #333;
 }
+.contact-left input[type="password"] {
+	width: 32.51%;
+	margin: 0px;
+	color: #333;
+	background: none;
+	padding: 15px 10px;
+	outline: none;
+	border: 1px solid #333;
+}
 .contact-left textarea {
 	width: 100%;
 	color: #333;

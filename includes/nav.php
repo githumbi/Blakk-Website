@@ -74,7 +74,7 @@
 				 <li <?php if($active == 'about'){ echo "class = 'active'";} ?>><a href="about.php">About Us</a></li>
 				 <li <?php if($active == 'projects'){ echo "class = 'active'";} ?>><a href="projects.php">Leaders We Pay Tribute</a></li>
 				 <li <?php if($active == 'gallery'){ echo "class = 'active'";} ?>><a href="gallery.php">Gallery</a></li>
-				 <li  <?php if($active == 'blog'){ echo "class = 'active'";} ?>><a href="blog.php">BLOG</a></li>
+				
 				  <li  <?php if($active == 'signup'){ echo "class = 'active'";} ?>><a href="signup.php">SIGN UP</a></li>
 				 <li <?php if($active == 'contact'){ echo "class = 'active'";} ?>><a href="contact.php">Contact</a></li>
 				 <li <?php if($active == 'login'){ echo "class = 'active'";} ?>><a href="login.php">Members Login</a></li>
